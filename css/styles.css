@@ -1,0 +1,87 @@
+body{
+	margin: 0 auto;
+}
+
+header{
+	
+	background-image: url('img/worldcinema.jpg');
+}
+header,footer{
+	background-color:yellow;
+	
+}
+
+body section h1, h2, h3{
+	color:#333399;
+	font-weight:bolder;
+}
+.container{
+	display:block;
+	border:1px black solid;
+	margin:10px;
+	padding:5px;
+	text-align:center;
+}
+
+header nav {
+	float:right;
+	margin-right: 5px;
+	
+}
+
+
+header nav li {
+  display: inline;
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+header nav li a {
+	color:#ff0000;
+}
+
+.image-style{
+	border: 2px black solid;
+	border-radius:3px;
+}
+
+
+.movielover{
+	
+	margin:2px 0px 2px 0px;
+	padding:5px;
+}
+
+#slideshow{
+	
+	display:inline-block;
+    width:800px;
+	height:400px;
+    -webkit-border-radius: auto ;
+    -moz-border-radius: auto ;
+    border-radius: auto;
+	padding-bottom:10px;
+	background-image:url('img/thewayhome.jpg');
+	background-repeat:no-repeat;
+	 margin:2px;
+	 -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 8s;
+ }
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-image:url('img/thewayhome.jpg');}
+  to {background-image:url('img/chupkese.jpg');}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-image: url('img/chupkese.jpg') ;}
+  to {background-image: url('img/sd.jpg');}
+}
+ 
+ 
+iframe {
+	frameborder:0;
+}
